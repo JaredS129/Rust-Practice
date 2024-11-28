@@ -8,7 +8,7 @@ fn get_current_working_directory() -> String {
 fn main() {
     let dir = get_current_working_directory();
     let file_entries = fs::read_dir(dir).expect("Invalid directory");
-    let mut largest_file = None;
+    let mut largest_file: Option<String> = None;
     let mut largest_size: u64 = 0;
 
     for entry in file_entries {
@@ -18,7 +18,7 @@ fn main() {
         let size: u64 = metadata.len();
         if size > largest_size {
             largest_size = size;
-            largest_file = Some(path);
+            largest_file = Some(path.to_str().expect("Error converting path to string").to_string());
         }
     }
 

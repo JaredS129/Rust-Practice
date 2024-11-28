@@ -8,12 +8,12 @@ fn sort_array(arr: &[char; 10], order: SortOrder) -> [char; 10] {
         SortOrder::Ascending => {
             let mut arr: [char; 10] = *arr;
             arr.sort();
-            return arr
+            return arr;
         }
         SortOrder::Descending => {
             let mut arr: [char; 10] = *arr;
             arr.sort_by(|a, b| b.cmp(a));
-            return arr
+            return arr;
         }
     }
 }

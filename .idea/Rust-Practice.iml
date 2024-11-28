@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/rectify-array/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort-array-alphabetically/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort-array-without-mutation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/print-largest-file-in-directory/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/rectify-array/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sort-array-alphabetically/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sort-array-without-mutation/target" />
+      <excludeFolder url="file://$MODULE_DIR$/print-largest-file-in-directory/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
