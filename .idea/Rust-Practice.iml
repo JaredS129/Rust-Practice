@@ -6,10 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/sort-array-alphabetically/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sort-array-without-mutation/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/print-largest-file-in-directory/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/print-multiples/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/rectify-array/target" />
       <excludeFolder url="file://$MODULE_DIR$/sort-array-alphabetically/target" />
       <excludeFolder url="file://$MODULE_DIR$/sort-array-without-mutation/target" />
       <excludeFolder url="file://$MODULE_DIR$/print-largest-file-in-directory/target" />
+      <excludeFolder url="file://$MODULE_DIR$/print-multiples/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
