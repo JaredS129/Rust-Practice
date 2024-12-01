@@ -11,10 +11,10 @@ fn main() {
 
     println!("What number would you like to multiply?: ");
 
-    let mut num = String::new();
-    io::stdin().read_line(&mut num).expect("Failed to read line");
+    let mut num_input = String::new();
+    io::stdin().read_line(&mut num_input).expect("Failed to read line");
 
-    let num: usize = num.trim().parse().expect("Please type a number");
+    let num: usize = num_input.trim().parse().expect("Please type a number");
     let mut array = vec![];();
 
     for i in 0..size {
